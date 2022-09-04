@@ -1,3 +1,4 @@
+import 'package:catfact_ninja/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,22 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => const MaterialApp(
-        home: HomeWidget(),
-      );
-}
-
-class HomeWidget extends StatelessWidget {
-  const HomeWidget({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) => const Scaffold(
-        body: KittyFactList(),
-      );
-}
-
-class KittyFactList extends StatelessWidget {
-  const KittyFactList({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) => Container();
+    home: HomeScreen(),
+  );
 }
