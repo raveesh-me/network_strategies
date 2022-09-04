@@ -1,7 +1,7 @@
 name: network_strategies
-description: A new Flutter package project.
+description: A highly opinionated flutter package for declarative network strategies inspired by workbox
 version: 0.0.1
-homepage:
+homepage: https://flutter.works
 
 environment:
   sdk: ">=2.17.1 <3.0.0"
